@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".PoliceActivity" />
         <activity android:name=".FireActivity" />
-        <activity android:name=".MedicalActivity"></activity>
+        <activity android:name=".MedicalActivity" />
+        <activity android:name=".SearchActivity" />
     </application>
 
 </manifest>

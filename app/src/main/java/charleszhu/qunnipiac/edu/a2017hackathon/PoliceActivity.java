@@ -1,11 +1,11 @@
 package charleszhu.qunnipiac.edu.a2017hackathon;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-public class PoliceActivity extends AppCompatActivity {
+public class PoliceActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

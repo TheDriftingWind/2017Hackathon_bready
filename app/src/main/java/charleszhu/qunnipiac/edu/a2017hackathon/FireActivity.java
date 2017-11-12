@@ -1,11 +1,12 @@
 package charleszhu.qunnipiac.edu.a2017hackathon;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-public class FireActivity extends AppCompatActivity {
+public class FireActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
