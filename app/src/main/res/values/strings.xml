@@ -6,4 +6,36 @@
     <string name="PoliceNumber">Local Number:(203)-230-4000</string>
     <string name="FireNumber">Local Number: (203)-407-5880</string>
     <string name="MedicalNumber">Local Number: (203)-688-4242</string>
+    <string name="QuickTips">Quik Tips</string>
+
+    <!-- Fire Tips -->
+    <string name="FireTips">
+         - Don\'t use water on Electrical Fire \n\n
+         - Don\'t use extinguisher on Gas Fire \n\n
+         - Do NOT fight a fire unless it\'s small or manageable enough for you to confidently handle \n\n
+         - If evacuation is impossible stay low and stay in place \n\n
+         - STOP DROP AND ROLL
+    </string>
+
+    <!-- Medical Tips -->
+    <string name="MedicalTipsStings">
+         - Remove any jewelry and restrictive clothing \n\n
+         - Clean the area with soap and water \n\n
+         - Cover area with an adhesive bandage or gauze
+    </string>
+    <string name="MedicalTipsOpenWound">
+         - If bleeding, apply pressure to restrict flow of blood \n\n
+         - Clean wound with anti-bacterial soap or disinfectant \n\n
+         - Cover area with an adhesive bandage or gauze
+    </string>
+    <string name="MedicalTipsBurn">
+         - Cool burned area with cold water until pain lessens \n\n
+         - Cover with a dry, sterile bandage or clean dressing \n\n
+         - Do NOT touch area
+    </string>
+
+    <!--Polic Tips -->
+    <string name="PoliceTips">
+        -
+    </string>
 </resources>
