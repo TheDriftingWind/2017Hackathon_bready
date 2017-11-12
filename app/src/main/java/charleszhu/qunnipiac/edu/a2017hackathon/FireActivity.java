@@ -7,8 +7,6 @@ import android.widget.LinearLayout;
 
 public class FireActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
