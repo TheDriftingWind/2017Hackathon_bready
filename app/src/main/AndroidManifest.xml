@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PoliceActivity" />
+        <activity android:name=".FireActivity" />
+        <activity android:name=".MedicalActivity"></activity>
     </application>
 
 </manifest>

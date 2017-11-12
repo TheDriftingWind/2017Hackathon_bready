@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">2017Hackathon</string>
+    <string name="app_name">B-Ready</string>
     <string name="Police">Police</string>
     <string name="Medical">Medical</string>
     <string name="Fire">Fire</string>
+    <string name="PoliceNumber">Local Number:(203)-230-4000</string>
+    <string name="FireNumber">Local Number: (203)-407-5880</string>
+    <string name="MedicalNumber">Local Number: (203)-688-4242</string>
 </resources>
