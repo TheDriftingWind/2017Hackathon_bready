@@ -3,10 +3,55 @@
     <string name="Police">Police</string>
     <string name="Medical">Medical</string>
     <string name="Fire">Fire</string>
-    <string name="PoliceNumber">Local Number:(203)-230-4000</string>
+    <string name="PoliceNumber">Local Number: (203)-230-4000</string>
     <string name="FireNumber">Local Number: (203)-407-5880</string>
     <string name="MedicalNumber">Local Number: (203)-688-4242</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+  
+    <string name="QuickTips">Quik Tips</string>
+
+    <!-- Fire Tips -->
+    <string name="FireTipsElectrical">
+         - Avoid exposed wires, outlets, and electronic devices near fire \n\n
+         - Attempt to shut off electricity if safe to do so \n\n
+         - If fire is small on manageable, use a fire extinguisher to put out
+         - Don\'t use water on Electrical Fire \n\n
+    </string>
+    <string name="FireTipsOil">
+         - Turn off heat source
+         - Don\'t use water on Oil Fire \n\n
+         - Attempt to put out with flame retardant blanket or other source to remove oxygen \n\n
+         - If you can't cover the flame, pour A LOT of baking soda on it \n\n
+    </string>
+
+    <!-- Medical Tips -->
+    <string name="MedicalTipsStings">
+         - Remove any jewelry and restrictive clothing \n\n
+         - Clean the area with soap and water \n\n
+         - Cover area with an adhesive bandage or gauze
+    </string>
+    <string name="MedicalTipsOpenWound">
+         - If bleeding, apply pressure to restrict flow of blood \n\n
+         - Clean wound with anti-bacterial soap or disinfectant \n\n
+         - Cover area with an adhesive bandage or gauze
+    </string>
+    <string name="MedicalTipsBurn">
+         - Cool burned area with cold water until pain lessens \n\n
+         - Cover with a dry, sterile bandage or clean dressing \n\n
+         - Do NOT touch area
+    </string>
+
+    <!--Polic Tips -->
+    <string name="PoliceTipsAggressor">
+        - Stay Calm \n\n
+        - Stay Still and Hidden \n\n
+        - Assure your safety and the safety of others \n\n
+        - Don't engage or aggrivate the assailant before police arrive \n\n
+    </string>
+    <string name="PoliceTipsTheft">
+        - Remember features or characteristics of assailant to report to police \n\n
+        - Do NOT pursuit the assailant \n\n
+        - Do NOT try to fight the assailant unless absolutely necessary
+    </string>
 </resources>
