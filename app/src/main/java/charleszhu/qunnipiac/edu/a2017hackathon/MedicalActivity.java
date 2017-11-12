@@ -29,14 +29,14 @@ public class MedicalActivity extends AppCompatActivity {
                 }
                 break;
             case R.id.ToggleOpenWound:
-                if(Burn.getVisibility() == View.VISIBLE){
+                if(OpenWound.getVisibility() == View.VISIBLE){
                     OpenWound.setVisibility(View.GONE);
                 } else {
                     OpenWound.setVisibility(View.VISIBLE);
                 }
                 break;
             case R.id.ToggleSting:
-                if(Burn.getVisibility() == View.VISIBLE){
+                if(Sting.getVisibility() == View.VISIBLE){
                     Sting.setVisibility(View.GONE);
                 } else {
                     Sting.setVisibility(View.VISIBLE);
