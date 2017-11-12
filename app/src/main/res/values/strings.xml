@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">B-Ready</string>
+    <string name="app_name">Be Ready</string>
     <string name="Police">Police</string>
     <string name="Medical">Medical</string>
     <string name="Fire">Fire</string>
@@ -19,7 +19,7 @@
          - Turn off heat source
          - Don\'t use water on Oil Fire \n\n
          - Attempt to put out with flame retardant blanket or other source to remove oxygen \n\n
-         - If you can't cover the flame, pour A LOT of baking soda on it \n\n
+         - If you can\'t cover the flame, pour A LOT of baking soda on it \n\n
     </string>
 
     <!-- Medical Tips -->

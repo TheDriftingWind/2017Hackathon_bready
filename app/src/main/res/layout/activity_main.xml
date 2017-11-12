@@ -8,7 +8,14 @@
     android:orientation="vertical"
     tools:context="charleszhu.qunnipiac.edu.a2017hackathon.MainActivity"
     >
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -17,7 +24,7 @@
         android:id="@+id/searchText"
         android:layout_width="250sp"
         android:layout_height="wrap_content"
-        android:text="Search your situation" />
+        android:hint="Search your situation" />
 
         <Button
         android:id="@+id/searchBtn"
