@@ -5,42 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="charleszhu.qunnipiac.edu.a2017hackathon.MainActivity">
+    tools:context="charleszhu.qunnipiac.edu.a2017hackathon.MainActivity"
+    >
     
     <Button
         android:id="@+id/PoliceButton"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130sp"
         android:onClick="onClick"
         android:textSize="32sp"
         android:text="@string/Police"
-        android:layout_gravity="center_horizontal"
+        android:textAlignment="viewEnd"
+        android:background="@drawable/icon_police"
         android:paddingTop="32dp"
         android:paddingBottom="32dp"
+        android:paddingRight="20sp"
         />
 
     <Button
         android:id="@+id/FireButton"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130sp"
         android:onClick="onClick"
         android:textSize="32sp"
         android:text="@string/Fire"
-        android:layout_gravity="center_horizontal"
+
         android:paddingTop="32dp"
         android:paddingBottom="32dp"
+        android:background="@drawable/icon_fire"
+        android:textAlignment="viewEnd"
+        android:paddingRight="20sp"
         />
 
     <Button
         android:id="@+id/MedicalButton"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130sp"
         android:onClick="onClick"
         android:textSize="32sp"
         android:text="@string/Medical"
-        android:layout_gravity="center_horizontal"
+
         android:paddingTop="32dp"
         android:paddingBottom="32dp"
+        android:background="@drawable/icon_medical"
+        android:textAlignment="viewEnd"
+        android:paddingRight="20sp"
         />
 
 

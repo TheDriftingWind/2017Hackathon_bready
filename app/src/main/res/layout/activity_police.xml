@@ -4,7 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="charleszhu.qunnipiac.edu.a2017hackathon.PoliceActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Police Emergency"
+        android:textSize="30sp"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -13,6 +21,61 @@
         android:textSize="26sp"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="30sp"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/QuickTips"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        />
+
+    <!-- Aggressor Tips -->
+    <Button
+        android:id="@+id/ToggleAggressor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ToggleViews"
+        android:text="Aggressor"
+        />
+    <LinearLayout
+        android:id="@+id/Aggressor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/PoliceTipsAggressor"
+            />
+    </LinearLayout>
+
+    <!-- Theft Tips -->
+    <Button
+        android:id="@+id/ToggleTheft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ToggleViews"
+        android:text="Theft"
+        />
+    <LinearLayout
+        android:id="@+id/Theft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/MedicalTipsBurn"
+            />
+    </LinearLayout>
 
 </LinearLayout>
